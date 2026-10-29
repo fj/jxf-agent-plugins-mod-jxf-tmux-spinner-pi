@@ -1,0 +1,24 @@
+{
+  "name": "mod-jxf-tmux-spinner",
+  "version": "0.1.20261019124257",
+  "description": "Marks the tmux window of an agent as busy, waiting for you, or done.",
+  "author": {
+    "name": "John Feminella"
+  },
+  "repository": "https://github.com/fj/agent-plugins",
+  "type": "module",
+  "keywords": [
+    "pi-package"
+  ],
+  "pi": {
+    "extensions": [
+      "./src/adapters/pi"
+    ]
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
